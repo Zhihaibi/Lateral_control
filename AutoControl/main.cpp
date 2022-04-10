@@ -7,11 +7,17 @@ int main() {
     LateralControl lat_controller;
     lat_controller.InitialCarParameters();
 
-    Matrix car_states; // real time states: [x,y,theta; vx,vy,v_theta; ax,ay,a_theta];
+    // real time states: [x,y,theta; vx,vy,v_theta; ax,ay,a_theta]
+    // 车辆当前的状态:[x坐标,y坐标, 航向角， x方向速度， y方向速度， 航向角速度，x方向加速度， y方向加速度， 航向角加速度]
+    // 因此是一个 3 × 3 的矩阵
+    Matrix car_states;
     car_states = Matrix::Zero(3, 3);
 
-    Matrix trajectory_points; // a 4*N matrix, planning points [x_i, y_i, theta_i, k_i]
-    trajectory_points = Matrix::Zero(4, 10);
+    // a 4*N matrix, planning points [x_i, y_i, theta_i, k_i]
+    // 规划的N个离散轨迹点，每个点包含四个参数[该点x坐标，该点y坐标，该点切向角度，该点的曲率]，因此是一个 4 × N 的矩阵
+    // N的大小还没确定，N越大，计算时间越长，但可能更准；
+    Matrix trajectory_points;
+    trajectory_points = Matrix::Zero(4, 50);
 
     while(true) {
         //================ task1 ===============================================
