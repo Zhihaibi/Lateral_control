@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/AutoControl.dir/main.cpp.o CMakeFiles/AutoControl.dir/lateral_control.cpp.o CMakeFiles/AutoControl.dir/linear_quadratic_regulator.cpp.o -o AutoControl  -lpython3.8 
