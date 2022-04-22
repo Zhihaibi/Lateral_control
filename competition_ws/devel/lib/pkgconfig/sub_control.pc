@@ -1,0 +1,8 @@
+prefix=/home/alan/competition_ws/devel
+
+Name: sub_control
+Description: Description of sub_control
+Version: 0.0.0
+Cflags: -I/home/alan/competition_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs message_runtime

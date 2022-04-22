@@ -1,0 +1,12 @@
+uint32 Object_ID                        #目标的ID编号
+float32 Object_DistLong                 #目标的纵向距离
+float32 Object_DistLat                  #目标的横向距离
+float32 Object_VrelLong                 #目标的纵向相对速度
+float32 Object_VrelLat                  #目标的横向相对速度
+uint32 Object_DynProp                   #目标的运动状态
+float32 Object_ArelLong                 #目标的纵向加速度
+float32 Object_ArelLat                  #目标的横向加速度
+uint32 Object_Class                     #目标的分类
+float32 Object_Length                   #目标的长度
+float32 Object_Width                    #目标的宽度
+uint32 Object_ProbOfExist               #目标置信度

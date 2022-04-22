@@ -1,0 +1,2 @@
+LateralControl:common_msgs:sub_control
+-DCATKIN_DEVEL_PREFIX=/home/alan/competition_ws/devel -DCMAKE_INSTALL_PREFIX=/home/alan/competition_ws/install -G Unix Makefiles

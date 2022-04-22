@@ -1,0 +1,2 @@
+set(common_msgs_MESSAGE_FILES "/home/alan/competition_ws/src/common_msgs/msg/object.msg;/home/alan/competition_ws/src/common_msgs/msg/objects.msg;/home/alan/competition_ws/src/common_msgs/msg/Lane.msg;/home/alan/competition_ws/src/common_msgs/msg/Lanes.msg;/home/alan/competition_ws/src/common_msgs/msg/Vehicle_Feedback.msg;/home/alan/competition_ws/src/common_msgs/msg/Vehicle_Control.msg")
+set(common_msgs_SERVICE_FILES "")

@@ -1,0 +1,26 @@
+(cl:in-package common_msgs-msg)
+(cl:export '(OBJECT_ID-VAL
+          OBJECT_ID
+          OBJECT_DISTLONG-VAL
+          OBJECT_DISTLONG
+          OBJECT_DISTLAT-VAL
+          OBJECT_DISTLAT
+          OBJECT_VRELLONG-VAL
+          OBJECT_VRELLONG
+          OBJECT_VRELLAT-VAL
+          OBJECT_VRELLAT
+          OBJECT_DYNPROP-VAL
+          OBJECT_DYNPROP
+          OBJECT_ARELLONG-VAL
+          OBJECT_ARELLONG
+          OBJECT_ARELLAT-VAL
+          OBJECT_ARELLAT
+          OBJECT_CLASS-VAL
+          OBJECT_CLASS
+          OBJECT_LENGTH-VAL
+          OBJECT_LENGTH
+          OBJECT_WIDTH-VAL
+          OBJECT_WIDTH
+          OBJECT_PROBOFEXIST-VAL
+          OBJECT_PROBOFEXIST
+))
